@@ -1,7 +1,6 @@
 steps:
   - id: "get build number"
-    name: "gcr.io/cloud-builders/git"
-    dir: 'cloudbuild-test01/streaming'
+    name: https://github.com/lariasbascur/cloudbuild-test01
     entrypoint: 'bash'
     args:
       - '-c'
